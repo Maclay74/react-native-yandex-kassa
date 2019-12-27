@@ -18,16 +18,8 @@ Pod::Spec.new do |s|
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
-<<<<<<< HEAD
   s.xcconfig = {'ENABLE_BITCODE' => 'NO'}
 
   s.dependency "React"
   s.dependency "YandexCheckoutPayments"
-=======
-
-  s.dependency "React"
-	
-  # s.dependency "..."
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 end
-

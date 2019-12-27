@@ -27,10 +27,8 @@ DerivedData
 *.ipa
 *.xcuserstate
 project.xcworkspace
-<<<<<<< HEAD
 ios/Pods/**
-=======
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
+ios/TrustDefender.framework
 
 # Android/IntelliJ
 #

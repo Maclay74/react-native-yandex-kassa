@@ -4,10 +4,7 @@
    <FileRef
       location = "group:YandexKassa.xcodeproj">
    </FileRef>
-<<<<<<< HEAD
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
-=======
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 </Workspace>

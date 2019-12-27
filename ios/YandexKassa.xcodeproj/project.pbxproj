@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		27B2F54C23B52CDC00B1B72A /* YandexCheckoutPayments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B2F54B23B52CDC00B1B72A /* YandexCheckoutPayments.framework */; };
 		27B2F55023B52D0A00B1B72A /* YandexCheckoutPaymentsApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B2F54F23B52D0A00B1B72A /* YandexCheckoutPaymentsApi.framework */; };
 		27F67F8223B4F3A9007F4FF2 /* YandexKassa.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* YandexKassa.m */; };
@@ -15,9 +14,6 @@
 		27F67F8423B4F3B3007F4FF2 /* YandexKassa-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 27C222D223B4BDB900F6BDEA /* YandexKassa-Bridging-Header.h */; };
 		27F6861C23B51D53007F4FF2 /* TrustDefender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F6861B23B51D53007F4FF2 /* TrustDefender.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		2E1A0E119C4FCCEFBCBEC8DF /* Pods_YandexKassa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B2F47223B528A700B1B72A /* Pods_YandexKassa.framework */; };
-=======
-		B3E7B58A1CC2AC0600A0062D /* YandexKassa.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* YandexKassa.m */; };
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,7 +30,6 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libYandexKassa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYandexKassa.a; sourceTree = BUILT_PRODUCTS_DIR; };
-<<<<<<< HEAD
 		27B2F47023B5289300B1B72A /* YandexCheckoutPayments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YandexCheckoutPayments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B2F47223B528A700B1B72A /* Pods_YandexKassa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_YandexKassa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B2F47423B528A700B1B72A /* YandexCheckoutPayments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YandexCheckoutPayments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,8 +44,6 @@
 		27F6861B23B51D53007F4FF2 /* TrustDefender.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TrustDefender.framework; sourceTree = "<group>"; };
 		2FEED543E1B4ED6CDB85B225 /* Pods-YandexKassa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexKassa.debug.xcconfig"; path = "Target Support Files/Pods-YandexKassa/Pods-YandexKassa.debug.xcconfig"; sourceTree = "<group>"; };
 		8B3EA69F959CDFB8DA3C8839 /* Pods-YandexKassa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexKassa.release.xcconfig"; path = "Target Support Files/Pods-YandexKassa/Pods-YandexKassa.release.xcconfig"; sourceTree = "<group>"; };
-=======
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 		B3E7B5881CC2AC0600A0062D /* YandexKassa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YandexKassa.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* YandexKassa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YandexKassa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,13 +53,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				27B2F55023B52D0A00B1B72A /* YandexCheckoutPaymentsApi.framework in Frameworks */,
 				27B2F54C23B52CDC00B1B72A /* YandexCheckoutPayments.framework in Frameworks */,
 				27F6861C23B51D53007F4FF2 /* TrustDefender.framework in Frameworks */,
 				2E1A0E119C4FCCEFBCBEC8DF /* Pods_YandexKassa.framework in Frameworks */,
-=======
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +71,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
 		27C222CF23B4BCFF00F6BDEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,15 +108,6 @@
 				8B3EA69F959CDFB8DA3C8839 /* Pods-YandexKassa.release.xcconfig */,
 			);
 			path = Pods;
-=======
-		58B511D21A9E6C8500147676 = {
-			isa = PBXGroup;
-			children = (
-				B3E7B5881CC2AC0600A0062D /* YandexKassa.h */,
-				B3E7B5891CC2AC0600A0062D /* YandexKassa.m */,
-				134814211AA4EA7D00B7C361 /* Products */,
-			);
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,10 +117,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "YandexKassa" */;
 			buildPhases = (
-<<<<<<< HEAD
 				C90C58DFAF4DD97845599E58 /* [CP] Check Pods Manifest.lock */,
-=======
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -165,10 +142,7 @@
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
-<<<<<<< HEAD
 						LastSwiftMigration = 1120;
-=======
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 					};
 				};
 			};
@@ -177,13 +151,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-<<<<<<< HEAD
 				English,
 				en,
 				ru,
-=======
-				en,
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
 			productRefGroup = 58B511D21A9E6C8500147676;
@@ -195,7 +165,6 @@
 		};
 /* End PBXProject section */
 
-<<<<<<< HEAD
 /* Begin PBXShellScriptBuildPhase section */
 		C90C58DFAF4DD97845599E58 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -221,20 +190,14 @@
 		};
 /* End PBXShellScriptBuildPhase section */
 
-=======
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				27F67F8423B4F3B3007F4FF2 /* YandexKassa-Bridging-Header.h in Sources */,
 				27F67F8323B4F3AF007F4FF2 /* YandexKassa.swift in Sources */,
 				27F67F8223B4F3A9007F4FF2 /* YandexKassa.m in Sources */,
-=======
-				B3E7B58A1CC2AC0600A0062D /* YandexKassa.m in Sources */,
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +207,7 @@
 		58B511ED1A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-<<<<<<< HEAD
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-=======
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -288,7 +248,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_VERIFY_BITCODE = NO;
 				LIBRARY_SEARCH_PATHS = "";
@@ -296,22 +255,13 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-=======
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 			};
 			name = Debug;
 		};
 		58B511EE1A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-<<<<<<< HEAD
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-=======
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -345,25 +295,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_VERIFY_BITCODE = NO;
 				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-=======
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
 			baseConfigurationReference = 2FEED543E1B4ED6CDB85B225 /* Pods-YandexKassa.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -375,38 +318,26 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-=======
-			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
-<<<<<<< HEAD
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks /usr/lib/swift";
 				LD_VERIFY_BITCODE = NO;
-=======
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = YandexKassa;
 				SKIP_INSTALL = YES;
-<<<<<<< HEAD
 				SWIFT_OBJC_BRIDGING_HEADER = "YandexKassa-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React";
-=======
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 			};
 			name = Debug;
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
 			baseConfigurationReference = 8B3EA69F959CDFB8DA3C8839 /* Pods-YandexKassa.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -416,31 +347,22 @@
 					"$(PROJECT_DIR)/Pods/YandexMobileMetrica/dynamic",
 					"$(PROJECT_DIR)",
 				);
-=======
-			buildSettings = {
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
-<<<<<<< HEAD
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks /usr/lib/swift";
 				LD_VERIFY_BITCODE = NO;
-=======
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = YandexKassa;
 				SKIP_INSTALL = YES;
-<<<<<<< HEAD
 				SWIFT_OBJC_BRIDGING_HEADER = "YandexKassa-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React";
-=======
->>>>>>> 5e55e47eb1dbe2800591074a58f796af92baf284
 			};
 			name = Release;
 		};
