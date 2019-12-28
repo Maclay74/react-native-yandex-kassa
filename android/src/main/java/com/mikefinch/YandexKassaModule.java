@@ -50,6 +50,7 @@ public class YandexKassaModule extends ReactContextBaseJavaModule {
     private static final Currency RUB = Currency.getInstance("RUB");
     private static final String KEY_AMOUNT = "amount";
     private static final int REQUEST_CODE_TOKENIZE = 33;
+    private static final int REQUEST_CODE_3DSECURE = 35;
     private Promise paymentPromise;
 
 
@@ -62,6 +63,25 @@ public class YandexKassaModule extends ReactContextBaseJavaModule {
     @Override
     public String getName() {
         return "YandexKassa";
+    }
+
+    @ReactMethod
+    public void finish() {
+        // Need for iOS
+    }
+
+    @ReactMethod
+    public void show3Dsecure(String url, Promise promise) {
+        this.paymentPromise = promise;
+        Intent intent = Checkout.create3dsIntent(this.reactContext,url);
+        Activity activity = getCurrentActivity();
+
+        if (activity == null) {
+            paymentPromise.reject("Activity doesn't exist");
+            return;
+        }
+
+        activity.startActivityForResult(intent, REQUEST_CODE_3DSECURE);
     }
 
     @ReactMethod
@@ -79,10 +99,7 @@ public class YandexKassaModule extends ReactContextBaseJavaModule {
             this.reactContext.getResources().getString(R.string.yandex_kassa_token),
             this.reactContext.getResources().getString(R.string.yandex_kassa_shop_id),
             settings.getSavePaymentMethod(),
-            paymentMethodTypes,
-            null,
-            null,
-            null
+            paymentMethodTypes
         );
 
         final UiParameters uiParameters = new UiParameters(
@@ -159,6 +176,20 @@ public class YandexKassaModule extends ReactContextBaseJavaModule {
                 break;
             }
           }
+
+          if (requestCode == REQUEST_CODE_3DSECURE) {
+           switch(resultCode) {
+                case Activity.RESULT_OK:
+                     paymentPromise.resolve(true);
+                 break;
+
+                 case Activity.RESULT_CANCELED:
+                 case Checkout.RESULT_ERROR:
+                     paymentPromise.reject("Payment cancelled");
+                 break;
+                 }
+           }
+
         }
       };
 
